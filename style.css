@@ -1,0 +1,80 @@
+#back{
+    background-image: url(./img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    padding: 20px;
+    margin: 200px 500px 200px;
+    width: 500px;
+    height: 500px;
+    /*background-image: url(./img/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgba(40, 40, 42, 0.47);
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.659);
+}
+.hr{
+    color: rgb(255, 1, 1);
+    height: 0.5px;
+}
+.form{
+    margin: 50px 50px 40px 150px;
+    color: white;
+    font-size: larger;
+}
+.input{
+    width: 300px;
+    height: 25px;
+    background-color: rgba(30, 29, 31, 0.421);
+    color: white;
+    font-size: medium;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: rgb(179, 0, 255);
+    border-style: solid;
+}
+.link{
+    color: rgb(179, 0, 255);
+    text-decoration: none;
+}
+.remm{
+    color: #ffffff;
+    font-size: large;
+}
+	
+body {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		background-color: #000;
+		font-family: sans-serif;
+	}
+
+	/* styling the button*/
+	.btn {
+		padding: 20px 20px;
+		display: inline-block;
+		color: #ffffff;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: large;
+		overflow: hidden;
+	}
+
+	/*creating animation effect*/
+	.btn:hover {
+		color: #111;
+		background: #d400ff;
+		box-shadow: 0 0 50px #d400ff;
+        border-radius: 6px;
+	}
+
